@@ -1,0 +1,44 @@
+h1, h2, h3, h4{
+    font-weight: bolder;
+    font-size: 3rem;
+    color: #ffffff;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+span, a{
+    color: #06248a;
+    font-weight: 600;
+    font-size: 15px;
+}
+a{
+    padding: 5px;
+}
+p{
+    color: #747070;
+    font-weight: 600;
+    font-size: 15px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+button{
+    background-color: #06248a;
+    border: 2px solid #06248a;
+    color: #ffffff;
+    border-radius: 2px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 7px 30px;
+    cursor: pointer;
+}
+button:is(:hover, :focus){
+    background-color: transparent;
+    color: #06248a;
+}
+button:focus{
+    zoom: 95%;
+    border: 2px solid #06248a;
+}
+button:active{
+    outline: 0;
+    border: 2px solid #06248a;
+}
