@@ -27,8 +27,8 @@
 }
 .skills .sub-skills .first .text h2{
     font-size: 1.7rem;
-    line-height: 2rem;
-    margin-bottom: 10px;
+    line-height: 0.5rem;
+    margin-bottom: 20px;
 }
 .skills .sub-skills .first .text h2 span{
     font-size: 5rem;
@@ -75,7 +75,7 @@
 }
 .skills .sub-skills .second .box h1{
     font-size: 3rem;
-    line-height: 3rem;
+    /* line-height: 3rem; */
     color: #06248a;
 }
 .skills .sub-skills .second .box h1 span{

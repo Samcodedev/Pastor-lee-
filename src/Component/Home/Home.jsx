@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css'
 // import { BsInstagram, BsFacebook, BsTwitter, BsLinkedin} from 'react-icons/bs'
-import profile from '../../img/DOXA-22 A-321_adobe_express.png'
+import profile from '../../img/IMG_20221103_160735_adobe_express.png'
 import { FaLongArrowAltRight } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion';

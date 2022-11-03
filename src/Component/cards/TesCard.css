@@ -36,3 +36,9 @@
     font-size: 1rem;
     margin-top: 20px;
 }
+
+@media screen and (max-width: 454px) {
+    .tescard{
+        min-width: 200px;
+    }
+}
