@@ -29,6 +29,7 @@
     flex-direction: column;
     justify-content: center;
     position: relative;
+    margin-bottom: 20px;
 }
 .about .sub-about .text-div h1{
     margin-block-end: 0;

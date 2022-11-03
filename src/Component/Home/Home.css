@@ -24,6 +24,9 @@
     justify-content: center;
     margin-left: 20px;
 }
+.home .sub-home .text-div span{
+    color: #1341d6;
+}
 .home .sub-home .text-div h1{
     font-size: 3.5rem;
     font-style: bold;
@@ -31,6 +34,7 @@
 .home .sub-home .text-div p{
     margin-bottom: 20px;
     word-spacing: 2px;
+    color: #d3cfcf;
     /* padding-left: 20px;
     border-left: 4px solid #06248a; */
 }
