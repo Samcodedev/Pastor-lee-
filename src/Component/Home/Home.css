@@ -30,10 +30,18 @@
 }
 .home .sub-home .text-div p{
     margin-bottom: 20px;
-    font-weight: 800;
     word-spacing: 2px;
     padding-left: 20px;
     border-left: 4px solid #06248a;
+}
+.home .sub-home .text-div a{
+    text-decoration: none;
+}
+.home .sub-home .text-div a button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 .home .sub-home .img-div{
     width: 60%;
@@ -59,4 +67,30 @@
 }
 .home .social svg{
     cursor: pointer;
+}
+
+@media screen and (max-width: 1198px) {
+    .home{
+        height: auto;
+    }
+    .home .sub-home{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .home .sub-home .img-div{
+        width: 100%;
+    }
+    .home .sub-home .text-div{
+        width: 80%;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .home .sub-home .text-div{
+        width: 90%;
+    }
+    .home .sub-home .text-div h1{
+        font-size: 2rem;
+    }
 }

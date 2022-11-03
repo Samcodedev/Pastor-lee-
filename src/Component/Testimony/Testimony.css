@@ -1,0 +1,39 @@
+.testimony{
+    background-color: #07011b;
+    display: flex;
+    justify-content: center;
+}
+.testimony .fade{
+    background-image: -moz-linear-gradient(to right, #07011b 30%, transparent);
+    background-image: linear-gradient(to right, #07011b 30%, transparent);
+    width: 15%;
+    height: 100%;
+    max-height: 360px;
+    position: absolute;
+    left: 0;
+    z-index: 3;
+}
+.testimony .fade2{
+    background-image: -moz-linear-gradient(to left, #07011b 30%, transparent);
+    background-image: linear-gradient(to left, #07011b 30%, transparent);
+    width: 15%;
+    height: 100%;
+    max-height: 360px;
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    z-index: 3;
+}
+.testimony .carousel{
+    width: 90%;
+    overflow: hidden;
+    padding: 0 30px;
+    /* background-color: aqua; */
+}
+.testimony .carousel .inner{
+    display: flex;
+    cursor: grab;
+}
+.testimony .carousel .inner:active{
+    cursor: grabbing;
+}

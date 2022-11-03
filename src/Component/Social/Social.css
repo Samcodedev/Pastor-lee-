@@ -1,0 +1,16 @@
+.socials{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    width: 98.75vw;
+    background-color: #090127;
+}
+.socials .sub-socials{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    padding: 20px 0;
+}

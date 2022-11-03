@@ -1,0 +1,39 @@
+.connect{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    background-color: #090127;
+}
+.connect .sub-connect{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #07011b;
+    flex-wrap: wrap;
+    /* padding: 20px 5%; */
+}
+.connect .sub-connect .text{
+    margin: 20px 0 20px 30px;
+}
+.connect .sub-connect .text h2{
+    font-size: 2rem;
+}
+.connect .sub-connect a{
+    text-decoration: none;
+
+}
+.connect .sub-connect a button{
+    margin: 20px 30px 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+
+@media screen and (max-width: 671px) {
+    .connect .sub-connect a button{
+        margin: 20px 30px 20px 30px;
+    }
+}
