@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css'
-import profile from '../../img/SAVE_20221103_155931_adobe_express.png'
+import profile from '../../img/SAVE_20221104_160917_adobe_express.png'
 import { motion } from 'framer-motion';
 
 const About = () => {

@@ -17,14 +17,14 @@ const Program = () => {
                         <img src={img1} alt="" />
                         <div className="text-d">
                             <h4>MIND SHIFT AFRICA</h4>
-                            <button>MORE</button>
+                            <button>VISIT</button>
                         </div>
                     </div>
                     <div className="img-div">
                         <img src={img4} alt="" />
                         <div className="text-d">
                             <h4>LOVE COUNCELLING</h4>
-                            <button>MORE</button>
+                            <button>VISIT</button>
                         </div>
                     </div>
                 </div>
@@ -33,14 +33,14 @@ const Program = () => {
                         <img src={img2} alt="" />
                         <div className="text-d">
                             <h4>MENTORING</h4>
-                            <button>MORE</button>
+                            <button>VISIT</button>
                         </div>
                     </div>
                     <div className="img-div">
                         <img src={img5} alt="" />
                         <div className="text-d">
                             <h4>BIBLE TEACHING</h4>
-                            <button>MORE</button>
+                            <button>VISIT</button>
                         </div>
                     </div>
                 </div>
@@ -49,14 +49,14 @@ const Program = () => {
                         <img src={img3} alt="" />
                         <div className="text-d">
                             <h4>DOXA COACHING</h4>
-                            <button>MORE</button>
+                            <button>VISIT</button>
                         </div>
                     </div>
                     <div className="img-div">
                         <img src={img6} alt="" />
                         <div className="text-d">
                             <h4>DOXA COACHING</h4>
-                            <button>MORE</button>
+                            <button>VISIT</button>
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 .skills{
     display: flex;
     justify-content: center;
-    background-color: #a06cd5;
+    background-color: #090127;
     padding: 50px 0;
 }
 .skills .sub-skills{
@@ -29,10 +29,11 @@
     font-size: 1.7rem;
     line-height: 0.5rem;
     margin-bottom: 20px;
-    color: #090127;
+    color: #a06cd5;
 }
 .skills .sub-skills .first .text h2 span{
     font-size: 5rem;
+    color: #ffffff;
 }
 .skills .sub-skills .first .text p{
     color: #ffffff;
@@ -69,7 +70,7 @@
     height: 100px;
     padding: 50px 50px;
     border-radius: 5px;
-    background-color: #090127;
+    background-color: #a06cd5;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,13 +82,22 @@
 .skills .sub-skills .second .box h1{
     font-size: 3rem;
     /* line-height: 3rem; */
-    color: #a09be7;
+    color: #090127;
 }
 .skills .sub-skills .second .box h1 span{
     font-size: 5rem;
     position: relative;
     left: -15px;
     color: #ffffff;
+}
+.skills .sub-skills .second .box p{
+    color: #ffffff;
+}
+.skills .sub-skills .second button{
+    color: #090127;
+}
+.skills .sub-skills .second button:hover{
+    color: #a06cd5;
 }
 
 

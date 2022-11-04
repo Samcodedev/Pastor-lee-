@@ -100,7 +100,7 @@
 
 @media screen and (max-width: 585px) {
     .home .sub-home .text-div{
-        width: 90%;
+        width: 100%;
     }
     .home .sub-home .text-div h1{
         font-size: 2rem;

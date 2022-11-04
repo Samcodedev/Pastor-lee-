@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     padding: 40px 0;
-    /* background-color: #090127; */
+    /* background-color: #371f76; */
     background-image: -moz-linear-gradient(to bottom, #35075f 50%, #090127 );
     background-image: linear-gradient(to bottom, #35075f 50%, #090127 );
 }

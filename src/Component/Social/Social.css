@@ -3,9 +3,9 @@
     justify-content: center;
     height: 90vh;
     width: 98.75vw;
-    /* background-color: #090127; */
-    background-image: -moz-linear-gradient(to bottom, #5a07a7 50%, #35075f );
-    background-image: linear-gradient(to bottom, #5a07a7 50%, #35075f );
+    background-color: #090127;
+    /* background-image: -moz-linear-gradient(to bottom, #5a07a7 50%, #35075f );
+    background-image: linear-gradient(to bottom, #5a07a7 50%, #35075f ); */
 }
 .socials .sub-socials{
     width: 90%;

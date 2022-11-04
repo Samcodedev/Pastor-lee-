@@ -23,13 +23,13 @@ const Skills = () => {
                             <h4>Coach</h4>
                         </div>
                         <div className="work-skill">
-                            <h4>Data Analysis</h4>
-                        </div>
-                        <div className="work-skill">
                             <h4>Mentor</h4>
                         </div>
                         <div className="work-skill">
                             <h4>Councellor</h4>
+                        </div>
+                        <div className="work-skill">
+                            <h4>Data Analysis</h4>
                         </div>
                     </div>
                 </div>

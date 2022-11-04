@@ -1,6 +1,6 @@
 import React from 'react';
 import './TesCard.css'
-import tes1 from '../../img/DOXA-22 A-134.jpg'
+import tes1 from '../../img/20220828_1317411.jpg'
 
 const TesCard = (props) => {
     return(
