@@ -2,7 +2,9 @@
     display: flex;
     justify-content: center;
     padding: 40px 0;
-    background-color: #090127;
+    /* background-color: #090127; */
+    background-image: -moz-linear-gradient(to bottom, #35075f 50%, #090127 );
+    background-image: linear-gradient(to bottom, #35075f 50%, #090127 );
 }
 .connect .sub-connect{
     width: 90%;
@@ -29,6 +31,10 @@
     align-items: center;
     justify-content: space-between;
     gap: 15px;
+    color: #07011b;
+}
+.connect .sub-connect a button:hover{
+    color: #a09be7;
 }
 
 

@@ -27,10 +27,10 @@ const About = () => {
                 }}
                 className="text-div"
                 >
-                    <h1>I'm Joseph Inneh</h1>
+                    <h1>I'm Olaleye Rosiji</h1>
                     <span>About Me</span>
                     <p>
-                        My name is inneh Joseph and i'm a social media marketing expert. I work as an affiliate marketer and i earn commissions selling training programs and courses.
+                        My name is Olaleye Rosiji and i'm a social media marketing expert. I work as an affiliate marketer and i earn commissions selling training programs and courses.
                         <br/><br/>
                         I've been at this for over 2years and it is this same business model that funds my lifestyle today.
                         <br/><br/>

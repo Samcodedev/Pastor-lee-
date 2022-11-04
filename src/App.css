@@ -11,7 +11,7 @@ h1, h2, h3, h4{
     margin-block-end: 0;
 }
 span, a{
-    color: #06248a;
+    color: #63585e;
     font-weight: 600;
     font-size: 15px;
 }
@@ -26,9 +26,9 @@ p{
     margin-block-end: 0;
 }
 button{
-    background-color: #06248a;
-    border: 2px solid #06248a;
-    color: #ffffff;
+    background-color: #a09be7;
+    border: 2px solid #a09be7;
+    color: #5f00ba;
     border-radius: 2px;
     font-size: 1.5rem;
     font-weight: 700;
@@ -37,7 +37,7 @@ button{
 }
 button:is(:hover, :focus){
     background-color: transparent;
-    color: #06248a;
+    color: #a09be7;
 }
 button:focus{
     zoom: 95%;
