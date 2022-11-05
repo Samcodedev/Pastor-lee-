@@ -33,9 +33,8 @@ const Skills = () => {
                 </div>
                 <div className="second">
                     <div className="box">
-                        <h1>20+</h1>
+                        <h1><span>20+</span> years of professional experience</h1>
                         <div className="content">
-                            <p>years of professional experience</p>
                             <button>Consult Now</button>
                         </div>
                     </div>
