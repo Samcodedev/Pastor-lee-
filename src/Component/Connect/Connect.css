@@ -7,7 +7,7 @@
     background-image: linear-gradient(to bottom, #35075f 50%, #090127 );
 }
 .connect .sub-connect{
-    width: 90%;
+    width: 75%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,8 +38,13 @@
 }
 
 
-@media screen and (max-width: 671px) {
+@media screen and (max-width: 757px) {
     .connect .sub-connect a button{
         margin: 20px 30px 20px 30px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .connect .sub-connect{
+        width: 88%;
     }
 }

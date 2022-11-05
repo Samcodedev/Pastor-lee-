@@ -35,6 +35,8 @@
 .csocial .text-div p{
     margin-block-start: 0px;
     margin-block-end: 0px;
-    font-size: 0.8rem;
-    color: #cac9c9;
+    font-size: 15px;
+    word-spacing: 2px;
+    color: #d3cfcf;
+    font-weight: 100;
 }

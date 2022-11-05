@@ -1,14 +1,14 @@
 .heading{
     display: flex;
     justify-content: center;
-    padding: 50px 20%;
+    padding: 50px 0%;
     background-color: #35075f;
 }
 .heading .sub-heading{
-    width: 80%;
+    width: 75%;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
 }
 .heading .sub-heading h2{
     font-size: 2rem;
@@ -16,13 +16,20 @@
 }
 .heading .sub-heading p{
     color: #cac9c9;
+    width: 50%;
 }
 
-@media screen and (max-width: 853px) {
-    .heading{
-        padding: 50px 5px;
-    }
+@media screen and (max-width: 1028px) {
     .heading .sub-heading h2{
         font-size: 1.5rem;
+    }
+    .heading .sub-heading p{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .heading .sub-heading{
+        width: 85%;
     }
 }

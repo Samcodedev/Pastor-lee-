@@ -2,17 +2,17 @@
     display: flex;
     justify-content: center;
     background-color: #090127;
-    padding: 50px 0;
+    padding: 100px 0;
 }
 .skills .sub-skills{
-    width: 90%;
+    width: 75%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* background-color: aqua; */
 }
 .skills .sub-skills .first{
-    width: 55%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,20 +26,18 @@
     /* background-color: darkgreen; */
 }
 .skills .sub-skills .first .text h2{
-    font-size: 1.7rem;
-    line-height: 0.5rem;
-    margin-bottom: 20px;
+    font-size: 2rem;
+    /* line-height: 0.5rem; */
+    margin-bottom: 10px;
     color: #a06cd5;
 }
-.skills .sub-skills .first .text h2 span{
-    font-size: 5rem;
-    color: #ffffff;
-}
 .skills .sub-skills .first .text p{
-    color: #ffffff;
+    word-spacing: 2px;
+    color: #d3cfcf;
+    font-weight: 100;
 }
 .skills .sub-skills .first .text p a{
-    color: #102b3f;
+    color: #a06cd5;
 }
 .skills .sub-skills .first .work{
     width: 100%;
@@ -53,73 +51,82 @@
     background-color: #5f00ba;
     padding: 10px 20px;
     cursor: pointer;
+    border-radius: 10px;
 
 }
 .skills .sub-skills .first .work .work-skill h4{
     font-size: 1rem;
+    font-weight: 100;
 }
 .skills .sub-skills .second{
     width: 45%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    /* background-color: #06248a; */
 }
 .skills .sub-skills .second .box{
-    width: 100px;
-    height: 100px;
-    padding: 50px 50px;
-    border-radius: 5px;
+    width: 90%;
+    height: fit-content;
+    border-radius: 20px;
     background-color: #a06cd5;
+    position: relative;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: left;
-    margin-bottom: 30px;
+    justify-content: space-around;
+    text-align: center;
+    padding: 30px 5px;
     box-shadow: 2px 2px 1px #06248a;
 }
 .skills .sub-skills .second .box h1{
-    font-size: 3rem;
-    /* line-height: 3rem; */
+    font-size: 4.5rem;
+    line-height: 1.7rem;
     color: #090127;
+    font-weight: bolder;
 }
-.skills .sub-skills .second .box h1 span{
-    font-size: 5rem;
-    position: relative;
-    left: -15px;
+.skills .sub-skills .second .box .content p{
     color: #ffffff;
+    text-align: left;
 }
-.skills .sub-skills .second .box p{
-    color: #ffffff;
+.skills .sub-skills .second .box .content button{
+    background-color: #090127;
+    color: #a06cd5;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-weight: 100;
+    float: left;
 }
-.skills .sub-skills .second button{
-    color: #090127;
-}
-.skills .sub-skills .second button:hover{
+.skills .sub-skills .second .box .content button:hover{
     color: #a06cd5;
 }
 
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 922px) {
     .skills .sub-skills{
         flex-direction: column;
     }
     .skills .sub-skills .first{
-        width: 80%;
+        width: 100%;
     }
     .skills .sub-skills .second{
-        width: 80%;
+        width: 100%;
         margin-top: 50px;
         align-items: center;
     }
     .skills .sub-skills .second .box{
-        max-width: 90%;
-        width: 200px;
-        height: 200px;
+        width: 100%;
     }
     .skills .sub-skills .second .box h1{
         font-size: 5rem;
         line-height: 5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .skills .sub-skills{
+        width: 85%;
     }
 }

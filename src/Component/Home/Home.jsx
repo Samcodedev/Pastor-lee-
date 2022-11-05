@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css'
 // import { BsInstagram, BsFacebook, BsTwitter, BsLinkedin} from 'react-icons/bs'
-import profile from '../../img/IMG_20221103_160735_adobe_express.png'
+import profile from '../../img/SAVE_20221104_160747_adobe_express.png'
 import { FaLongArrowAltRight } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion';
@@ -18,11 +18,10 @@ const Home = () => {
                     damping: "20"
                 }}
                 className="text-div"
-            >
-                    <span>Lead Pastor, Live Coach, Data Analyst</span>
-                    <h1>OLALEYE ROSIJI</h1>
-                    <p>OLALEYE ROSIJI is a live sc  fjf ejfc sc  heffdjdjjvkj  svfalfjfja fdhfhf shf sfhasfjsh fh asfh sh fshfshfhsfh shfshfsfsh fsh fjfjhsjf fsd 
-                        fhfhsdjhf f fas hfhsfh shfshkf sfk hs hfsh f kkh fhk fsh h  sh fhsfhfhsd f hf hf fhdhf sf</p>
+                >
+                    <span>Lead Pastor, Life Coach, Data Analyst</span>
+                    <h1>Olaleye Rosiji</h1>
+                    <p>A Business and Data Analyst dexterous at using various analytics tools to solve High profile data related problems. Leye is a Life and Love coach who has successfully coached several teenagers/adults with mind-blowing testimonies. Olaleye is also the Lead Pastor of Kings’ Hub.</p>
                         <Link to="about"><button>About Me <FaLongArrowAltRight fontSize="30px" /></button></Link>
                 </motion.div>
                 <motion.div 

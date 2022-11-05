@@ -8,10 +8,8 @@ const Skills = () => {
             <div className="sub-skills">
                 <div className="first">
                     <div className="text">
-                        <h2>PROFESSIONAL INFO <span>.</span></h2>
-                        <p>A jdj sfnjfn d nfn  s fsfs bsfs   b bv dvb d v dhbvh dvd
-                             v dj df hdf hh d dh  djk df  h jdkg kd gjd  d hd hdfjkdj d dg useDebugValue
-                             ugfj nbjkkd j fdfgjkdfgd gjdgdg
+                        <h2>Professional Info.</h2>
+                        <p>I am an Experienced Business and Data Analyst, Life Coach and CEO of Mindshift Africa, Partner with The Global Catalysts, Mentor and a Pastor, Host of a weekly love coaching session tagged TE-AMO on
                             <Link>Instagram </Link> <Link>FaceBook</Link>
                         </p>
                     </div>
@@ -35,10 +33,12 @@ const Skills = () => {
                 </div>
                 <div className="second">
                     <div className="box">
-                        <h1>30 <span>.</span></h1>
-                        <p>Years of professional experience</p>
+                        <h1>20+</h1>
+                        <div className="content">
+                            <p>years of professional experience</p>
+                            <button>Consult Now</button>
+                        </div>
                     </div>
-                    <button>Consult Now</button>
                 </div>
             </div>
         </div>
