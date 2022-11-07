@@ -36,7 +36,7 @@ const About = () => {
                         <br/><br/>
                         Tenacious about leveraging my analytic skills and models to assist high-end corporates align a fast and improved solutions to positively influence the bottom line.
                         <br/><br/>
-                        The lead Pastor of the Kings’ Hub, Lead Coach at Mindshift Africa, Partner with The Global Catalysts, Love Coach at TE-AMO( a weekly instagram-live session)
+                        The lead Pastor of the Kings’ Hub, Lead Coach and CEO of Mindshift Africa, Partner with The Global Catalysts, Love Coach at TE-AMO( a weekly instagram-live session)
                     </p>
                 </motion.div>
             </div>

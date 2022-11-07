@@ -1,11 +1,11 @@
 import React from 'react';
 import './Program.css'
-import img1 from '../../img/DOXA-22 A-022.jpg'
-import img2 from '../../img/DOXA-22 A-038.jpg'
-import img3 from '../../img/DOXA-22 A-052.jpg'
-import img4 from '../../img/DOXA-22 A-077.jpg'
-import img5 from '../../img/DOXA-22 A-088.jpg'
-import img6 from '../../img/DOXA-22 A-133.jpg'
+import img1 from '../../img/Screenshot_20221107-005429_Instagram.jpg'
+import img2 from '../../img/DOXA-22 A-022.jpg'
+import img3 from '../../img/Screenshot_20221107-011414_Instagram.jpg'
+import img4 from '../../img/Screenshot_20221107-005107_Instagram.jpg'
+import img5 from '../../img/SAVE_20221103_155931.jpg'
+import img6 from '../../img/DOXA-22 A-088.jpg'
 
 const Program = () => {
     return(
@@ -48,14 +48,14 @@ const Program = () => {
                     <div className="img-div">
                         <img src={img3} alt="" />
                         <div className="text-d">
-                            <h4>Doxa Coaching</h4>
+                            <h4>Coaching</h4>
                             <button>visit</button>
                         </div>
                     </div>
                     <div className="img-div">
                         <img src={img6} alt="" />
                         <div className="text-d">
-                            <h4>Doxa Coaching</h4>
+                            <h4>Life Coaching</h4>
                             <button>visit</button>
                         </div>
                     </div>

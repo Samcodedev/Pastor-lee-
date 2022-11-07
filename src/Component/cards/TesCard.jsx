@@ -1,12 +1,11 @@
 import React from 'react';
 import './TesCard.css'
-import tes1 from '../../img/20220828_1317411.jpg'
 
 const TesCard = (props) => {
     return(
         <div className='tescard'>
              <div className="img-div">
-                <img src={tes1} alt="" />
+                <img src={props.img} alt="" />
              </div>
              <div className="text-div">
                 <p>{props.content}</p>

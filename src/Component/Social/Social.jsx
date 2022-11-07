@@ -1,40 +1,41 @@
 import React from 'react';
 import './Social.css'
 import SCard from '../cards/SCard';
-import { BsTwitter, BsLinkedin, BsInstagram, BsFacebook, BsWhatsapp } from 'react-icons/bs'
+import { BsTwitter, BsLinkedin, BsInstagram, BsFacebook } from 'react-icons/bs'
+import { MdEmail } from 'react-icons/md'
 
 const social = () => {
 
     const data =[
         {
-            title: "WhatsApp Connect",
-            content: "I share daily status updates on Faith, Business, and Multivation that will inspire you greatly",
-            icon: <BsWhatsapp fontSize="50px" color="#25d366" />,
+            title: "Email Messaging",
+            content: "Get in touch with me for business collaborations.",
+            icon: <MdEmail fontSize="50px" color="#d65e5e" />,
             link: ""
         },
         {
             title: "Twitter Connect",
-            content: "Daily musingd and growth tips",
+            content: "Coaching, Business tips and inspiring tweets",
             icon: <BsTwitter fontSize="45px" color='#1da1f2' />,
-            link: ""
+            link: "https://twitter.com/leyislee?t=G1MYKugE0-EgidbC4SoVvg&s=09"
         },
         {
             title: "LinkedIn Connect",
-            content: "Building greate network",
+            content: "Connecting and networking in term of business",
             icon: <BsLinkedin fontSize="45px" color='#0072b1' />,
-            link: ""
+            link: "https://www.linkedin.com/in/olaleye-rosiji"
         },
         {
             title: "Facebook Connect",
-            content: "Thought leadership",
+            content: "Upcoming coaching and mentorship programs",
             icon: <BsFacebook fontSize="45px" color='#3b5998' />,
-            link: ""
+            link: "https://facebook.com/olaleye.rosiji"
         },
         {
             title: "Instagram Connect",
-            content: "Value and Life style",
+            content: "Bible teaching, coaching and love mentorship programs",
             icon: <BsInstagram fontSize="45px" color='#bc2a8d' />,
-            link: ""
+            link: "https://instagram.com/leyerosiji?igshid=YmMyMTA2M2Y="
         }
     ]
 

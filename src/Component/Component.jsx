@@ -4,6 +4,7 @@ import About from './About/About';
 import Landing from './Landing';
 import Social from './Social/Social';
 import NavBar from './NavBar/NavBar';
+import Error from './Error/Error';
 
 const Component = () => {
     return(
@@ -12,7 +13,8 @@ const Component = () => {
             <Routes>
                 <Route path="/" element={<Landing />} />
                 <Route path="/about" element={<About />} />
-                <Route path="/social" element={ <Social />} />
+                <Route path="/social" element={<Social />} />
+                <Route path="*" element={<Error />} />
             </Routes>
         </Router>
     )
