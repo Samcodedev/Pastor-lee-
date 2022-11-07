@@ -73,8 +73,8 @@ const Testimony = () => {
 
     return(
         <div className='testimony' >
-            <div className="fade">r</div>
-            <div className="fade2">r</div>
+            <div className="fade"></div>
+            <div className="fade2"></div>
             <motion.div className="carousel" ref={carousel} whileTap={{cursor: "grabbing"}}>
                 <motion.div drag="x" dragConstraints={{right: 0, left: -width}} className="inner">
                     {data}
