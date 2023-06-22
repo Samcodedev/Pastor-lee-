@@ -29,14 +29,13 @@ const About = () => {
                 >
                     <h1>I'm Olaleye Rosiji</h1>
                     <span>About Me</span>
-                    <p>
-                        An Enthusiastic Business and Data Analyst with academic background in Statistics. Dexterous at using various Analytics tools and Algorithms with precision to solve high profile data related problems.
+                    <p>An Enthusiastic Business and Data Analyst with academic background in Statistics. Dexterous at using various Analytics tools and Algorithms with precision to solve high profile data related problems.
                         <br/><br/>
-                        Experienced in deploying Agile/Scrum to Projects and to various fields including Critical analysis, Education, Training and development, Life Coaching and Recovery Operations. Given to learning new solutions and upskilling. Adept with the use of Spreadsheets, thorough with descriptive statistics and data management including data collection, data cleaning, data analysis, presentation and so on.
+                        Experienced in deploying Administrative and Project Management tools to various fields including IT, Critical analysis, Education, Training and development and Recovery Operations. Given to learning new solutions and upskilling. Adept with the use of Spreadsheets, thorough with descriptive statistics and data management including data collection, data cleaning, data analysis, presentation and so on.
                         <br/><br/>
-                        Tenacious about leveraging my analytic skills and models to assist high-end corporates align a fast and improved solutions to positively influence the bottom line.
+                        Tenacious about leveraging analytic skills and models to assist high-end corporates and align a fast and improved solutions to positively influence the bottom line.
                         <br/><br/>
-                        The lead Pastor of the Kings’ Hub, Lead Coach and CEO of Mindshift Africa, Partner with The Global Catalysts, Love Coach at TE-AMO( a weekly instagram-live session)
+                        He is a Leader per excellence, a Counselor/Coach and Pastor/Mentor to several Gen-Zs and Millenials.
                     </p>
                 </motion.div>
             </div>
