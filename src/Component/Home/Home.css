@@ -13,7 +13,7 @@
     height: 100%;
     display: flex;
     /* background-color: aqua; */
-    padding: 20px 20px;
+    padding: 0px 0px;
 }
 .home .sub-home .text-div{
     width: 50%;
@@ -77,11 +77,12 @@
         height: auto;
         background-image: url('../../img/fav.png');
         background-position: top;
-        height: 90vh;
+        height: 93vh;
     }
     .home .sub-home{
         flex-direction: column-reverse;
         align-items: center;
+        width: 100vw;
     }
     .home .sub-home .img-div{
         width: 100%;
